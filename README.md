@@ -1,8 +1,7 @@
 # 🛋 Мебельный Рай — интернет-магазин мебели
 
 [![PHP](https://img.shields.io/badge/PHP-8.2+-777BB4?logo=php)](https://php.net)
-[![C#](https://img.shields.io/badge/C%23-.NET%208.0-512BD4?logo=csharp)](https://dotnet.microsoft.com)
-[![Python](https://img.shields.io/badge/Python-3.11+-3776AB?logo=python)](https://python.org)
+
 
 **Мебельный Рай** — полноценный интернет-магазин для продажи корпусной и мягкой мебели.  
 Проект состоит из трёх компонентов:
