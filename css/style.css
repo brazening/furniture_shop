@@ -1,0 +1,132 @@
+/* ОСНОВА САЙТА */
+body {
+    min-height: 100vh; /* Устанавливаем минимальную высоту страницы */
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: #F7F7F7; 
+    text-align: center;
+    overflow: hidden;
+    font-family: "Bradley Hand", cursive;
+}
+
+.navigation { 
+    background-color: #A6B1B4;
+    width: auto;
+    padding: 10px;
+}
+
+.menu_site { 
+    display: inline-block;
+    margin: 0px 20px;
+    color: #333;
+    /* text-decoration: underline; */
+    text-underline-offset: 2px;
+}
+
+.menu_site:hover {
+    text-decoration: underline; /* Добавляем текущее подчёркивание */
+}
+
+.section-text {
+    font-family: "DejaVu Sans Mono", monospace;
+}
+
+header h1, h2 {
+    /* font-family: segoe print; */
+    font-family: Brush Script MT; 
+}
+
+body,
+section {
+    background-color: #ECF0F1;
+}
+
+section {
+    padding: 20px;
+}
+
+button {
+    background-color: #A6B1B4;
+}
+
+/* a[type="button"] {
+    background-color: #A6B1B4;
+} */
+
+input[type="button"], 
+input[type="submit"] {
+    background-color: #A6B1B4;
+}
+
+a {
+    color: chocolate;
+}
+
+footer {
+    background-color: #F7F7F7;
+    text-align: center;
+    overflow: hidden;
+    /* чтоб не было полосок по бокам */
+    font-family: "Bradley Hand", cursive;
+    padding: 10px;
+
+}
+
+footer p {
+    display: inline-block;
+    /* чтобы в одной строке всё в подвале сайта было */
+    font-size: 82%;
+}
+
+/* BOOTSTRAP КАРУСЕЛЬ */
+
+.carousel-inner {
+    display: flex;
+    height: 500px; /* Изображения будут растягиваться по высоте карусели */
+    margin: 0;
+    width: 1100px;
+    padding: 0;
+    
+}
+/* Если хотите фиксированные пропорции, можно использовать: */
+.carousel-item img {
+    object-fit: cover; /* Обрезает изображение для заполнения контейнера */
+}
+.carousel-item p{
+    text-shadow: #2b2727;
+    color: #333;
+}
+
+.carousel-item h5{
+    text-shadow: #2b2727;
+    color: #333;
+}
+
+.description {
+    display: none; /* Скрываем описание по умолчанию */
+}
+
+.carousel {
+    position: relative; /* Для корректной работы позиционирования кнопок */
+    
+}
+#carouselExampleCaptions .carousel-control-prev,
+#carouselExampleCaptions .carousel-control-next {
+    position: absolute;
+    top: 50%; /* Центруем кнопки вертикально относительно карусели */
+    transform: translateY(-50%); /* Сдвигаем кнопки вверх на половину их высоты */
+    z-index: 10;
+    width: auto; /* Автоматическая ширина кнопок */
+    height: auto; /* Автоматическая высота кнопок */
+    display: flex; /* Используем Flexbox для центрирования содержимого */
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%; /* Закругляем кнопки */
+    padding: 10px; /* Внутренний отступ */
+}
