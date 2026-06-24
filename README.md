@@ -28,5 +28,5 @@
 
 ### 1️⃣ Клонировать репозиторий
 ```bash
-git clone https://github.com/ваш-логин/meбельный-рай.git
-cd meбельный-рай
+git clone https://github.com/brazening/furniture_shop.git
+cd furniture_shop
